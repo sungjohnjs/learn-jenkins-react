@@ -12,7 +12,7 @@ pipeline {
           echo 'Preparing the environment...'
           // Ensure log and target directories exist
           sh 'rm -rf dist || true' // Clean previous build artifacts
-          sh 'nvm use 22.3.0' //set nvm version
+          // sh 'nvm use 22.3.0' //set nvm version
           sh 'npm install' // npm install
         }
       }
