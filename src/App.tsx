@@ -3,7 +3,7 @@ function App() {
 
   return (
     <>
-      <div style={{fontSize: 48}}>halo 04</div>
+      <div style={{fontSize: 48}}>halo 500</div>
     </>
   )
 }
